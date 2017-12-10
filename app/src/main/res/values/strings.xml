@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Group_Project</string>
+    <string name="automobile">Automobile</string>
+    <string name="health">Nutrition</string>
+    <string name="calendar">Calendar</string>
+    <string name="todoList">To Do List</string>
 </resources>
