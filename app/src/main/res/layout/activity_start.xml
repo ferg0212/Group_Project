@@ -35,11 +35,11 @@
         />
 
     <Button
-        android:id="@+id/toDoList"
+        android:id="@+id/memoRecorder"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:drawableTop="@android:drawable/ic_menu_day"
-        android:text="@string/todoList"
+        android:drawableTop="@android:drawable/ic_btn_speak_now"
+        android:text="@string/memoRecorder"
         app:layout_constraintLeft_toRightOf="@id/calendarButton"
         app:layout_constraintTop_toBottomOf="@+id/dietaryButton"
         />

@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fergu.group_project">
 
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +23,19 @@
         <activity android:name=".AutomobileActivity" />
         <activity android:name=".NutritionActivity" />
         <activity android:name=".CalendarActivity" />
-        <activity android:name=".ToDoList"></activity>
+        <activity android:name=".MemoRecorderActivity"
+            android:label="Sound Recorder"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.fergu.group_project.fileprovider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+        <service android:name=".RecordingService" />
     </application>
 
 </manifest>
