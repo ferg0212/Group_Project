@@ -18,7 +18,7 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
         Button automobileButton = (Button) findViewById(R.id.automobileButton);
         Button nutritionButton = (Button) findViewById(R.id.dietaryButton);
-        Button toDoListButton = (Button) findViewById(R.id.toDoList);
+        Button memoRecorderButton = (Button) findViewById(R.id.memoRecorder);
         Button calendarButton = (Button) findViewById(R.id.calendarButton);
 
         automobileButton.setOnClickListener(new View.OnClickListener(){
@@ -44,12 +44,12 @@ public class StartActivity extends AppCompatActivity {
             }
         } );
 
-        toDoListButton.setOnClickListener(new View.OnClickListener(){
+        memoRecorderButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Log.i(ACTIVITY_NAME, "User clicked To Do List");
+                Log.i(ACTIVITY_NAME, "User clicked Memo Recorder");
 
-                Intent startToDo = new Intent(StartActivity.this , ToDoList.class);
+                Intent startToDo = new Intent(StartActivity.this , MemoRecorderActivity.class);
 
                 startActivityForResult(startToDo, 10);
             }
