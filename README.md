@@ -3,4 +3,10 @@ Group Project Consisting of John Ferguson, Alexandre Guay, Abdollah Abdala, and 
 
 Memo_Recorder Citation;
 
-https://github.com/dkim0419/SoundRecorder - Ended up being an amazingly helpful reference when I felt all else was lost. Many visual elements pulled from Sound Recorder, as well as help understanding mistakes in methods.
+https://github.com/dkim0419/SoundRecorder - Ended up being a helpful reference. Many visual elements pulled from Sound Recorder,
+as well as help understanding mistakes in methods.
+
+Group project encurred troubled during the Strike semester, and most students did not achieve their tasks.
+
+Memo_Recorder was built by John Ferguson
+Gas Recorder was built by Daniel Aramouni
