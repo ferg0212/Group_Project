@@ -1,5 +1,5 @@
 # Group_Project
-Group Project Consisting of John Ferguson, Alexandre Guay, Abdollah Abdala, and Daniel Aramouni 
+Group Project Consisting of John Ferguson, Alexandre Guay, Abdollah Abdala, and Daniel Aramouni
 
 Memo_Recorder Citation;
 
@@ -8,5 +8,7 @@ as well as help understanding mistakes in methods.
 
 Group project encurred troubled during the Strike semester, and most students did not achieve their tasks.
 
-Memo_Recorder was built by John Ferguson
+Memo_Recorder was built by Devan Ferguson
 Gas Recorder was built by Daniel Aramouni
+
+Devan Fergusons work at github.com/deeferg/
